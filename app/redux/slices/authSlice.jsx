@@ -72,7 +72,6 @@ const authSlice = createSlice({
       } else {
         state.validationErrors = {};
       }
-      // Clear error state when input changes
       state.error = null;
     },
   },
