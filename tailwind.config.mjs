@@ -10,6 +10,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        login: '#E9ECF2',
+        ellipse2489: '#E477F6',
+        ellipse2488: '#9E77F6',
+        ellipse2487: '#B0D2E5',
+        ellipse2486: '#9E77F6',
       },
     },
   },
