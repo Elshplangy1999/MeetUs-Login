@@ -37,7 +37,6 @@ export default function Login() {
   };
 
   const handlePasswordChange = (e) => {
-    // Only allow letters
     const newValue = e.target.value.replace(/[^a-zA-Z]/g, '');
     setPassword(newValue);
     dispatch(clearValidationErrors('password'));
